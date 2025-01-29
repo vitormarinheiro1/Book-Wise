@@ -1,9 +1,6 @@
 <?php
 
 // Model
-require('data.php');
+require 'data.php';
 
-
-$view = "index";
-
-require('views/template/app.php');
+view('index', compact('books'));
